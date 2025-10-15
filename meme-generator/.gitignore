@@ -1,0 +1,93 @@
+# =============================
+# Node / Package Manager
+# =============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.*.json
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# =============================
+# Environment files (keep secrets out of git)
+# =============================
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =============================
+# Next.js / Build Artifacts
+# =============================
+.next/
+.next/cache/
+out/
+dist/
+build/
+.turbo/
+.swc/
+
+# Vercel / Deployment
+.vercel/
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage
+coverage/
+*.lcov
+
+# Logs
+logs/
+*.log
+
+# =============================
+# Playwright
+# =============================
+playwright-report/
+test-results/
+blob-report/
+.playwright/
+
+# =============================
+# Stagehand / Tooling
+# =============================
+.cursor/
+.cache/
+
+# =============================
+# OS / Editor junk
+# =============================
+.DS_Store
+Thumbs.db
+
+# IDE settings (keep workspace-specific config local)
+.vscode/
+.idea/
+.history/
+.fleet/
+
+# =============================
+# Misc
+# =============================
+*.swp
+*.swo
+*.orig
+*.rej
+
+/node_modules
+
+
+.env 
+
